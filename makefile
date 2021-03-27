@@ -1,2 +1,2 @@
-convertsid		:	main.c
-			gcc -Wall -o convertsid main.c
+convertsid		:	main.cpp
+			g++ -Wall -o convertsid main.cpp

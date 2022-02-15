@@ -76,7 +76,7 @@ int main(int argc, char** argv) {
     FILE *optr;
     optr = fopen(filename,"wb");
     if(optr == NULL) {
-      printf("ERROR: Unable save file: %s\n",filename);   
+      printf("ERROR: Unable save file: %s\n",filename);
       exit(1);             
     }
     fwrite(buffer+dataoffset,size-dataoffset,1,optr);
